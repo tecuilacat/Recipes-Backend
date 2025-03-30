@@ -5,8 +5,8 @@ plugins {
     id 'war'
 }
 
-apply from: rootProject.file('spring-build.gradle')
-apply from: rootProject.file('shared-dependencies.gradle')
+apply from: rootProject.file('buildscripts/spring-build.gradle')
+apply from: rootProject.file('buildscripts/shared-dependencies.gradle')
 
 group = 'com.github.tequilacat'
 version = '0.0.1-SNAPSHOT'
