@@ -5,10 +5,10 @@ configurations {
 }
 
 dependencies {
-    implementation 'org.apache.commons:commons-lang3:3.12.0'
-    implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.0'
+    implementation libs.commonsLang3
+    implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.0' // TODO | OST | 31.03.2025 | Ausbauen, sobald die neue Datenbank da ist
 
-    implementation 'org.projectlombok:lombok:1.18.20'
-    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    implementation libs.lombok
+    annotationProcessor libs.lombok
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 }

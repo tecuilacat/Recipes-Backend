@@ -1,3 +1,11 @@
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            from(files("libs.versions.toml"))
+        }
+    }
+}
+
 rootProject.name = 'Recipes-Backend'
 include 'app'
 include 'recipe'
