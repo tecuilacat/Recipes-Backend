@@ -48,7 +48,7 @@ public class RecipeController {
 
     @GetMapping("{uuid}")
     public Recipe getRecipebyUuid(@PathVariable UUID uuid) {
-        return new Recipe();
+        return new Recipe(); // TODO | OST | 30.03.2025 | muss noch implementiert werden
     }
 
     @GetMapping("random")

@@ -1,1 +1,3 @@
-rootProject.name = 'Recipes'
+rootProject.name = 'Recipes-Backend'
+include 'app'
+
