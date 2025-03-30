@@ -1,4 +1,4 @@
-package com.github.tequilacat.recipes.recipes.database;
+package com.github.tequilacat.recipe.database;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,7 +1,7 @@
-package com.github.tequilacat.recipes.recipes.service;
+package com.github.tequilacat.recipe.service;
 
-import com.github.tequilacat.recipes.recipes.database.Recipe;
-import com.github.tequilacat.recipes.recipes.database.repository.RecipeRepository;
+import com.github.tequilacat.recipe.database.Recipe;
+import com.github.tequilacat.recipe.database.repository.RecipeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;

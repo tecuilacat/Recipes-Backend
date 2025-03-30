@@ -1,6 +1,6 @@
-package com.github.tequilacat.recipes.recipes.database.repository;
+package com.github.tequilacat.recipe.database.repository;
 
-import com.github.tequilacat.recipes.recipes.database.Category;
+import com.github.tequilacat.recipe.database.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

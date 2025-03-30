@@ -1,0 +1,11 @@
+bootJar {
+    enabled = false
+}
+
+bootWar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}

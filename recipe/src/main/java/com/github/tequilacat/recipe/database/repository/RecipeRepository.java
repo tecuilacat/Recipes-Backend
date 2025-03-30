@@ -1,6 +1,6 @@
-package com.github.tequilacat.recipes.recipes.database.repository;
+package com.github.tequilacat.recipe.database.repository;
 
-import com.github.tequilacat.recipes.recipes.database.Recipe;
+import com.github.tequilacat.recipe.database.Recipe;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

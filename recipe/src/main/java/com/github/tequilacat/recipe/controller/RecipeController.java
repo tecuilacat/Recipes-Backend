@@ -1,7 +1,7 @@
-package com.github.tequilacat.recipes.recipes.controller;
+package com.github.tequilacat.recipe.controller;
 
-import com.github.tequilacat.recipes.recipes.database.Recipe;
-import com.github.tequilacat.recipes.recipes.service.RecipeService;
+import com.github.tequilacat.recipe.database.Recipe;
+import com.github.tequilacat.recipe.service.RecipeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;

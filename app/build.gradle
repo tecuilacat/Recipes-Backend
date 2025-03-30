@@ -11,14 +11,17 @@ apply from: rootProject.file('shared-dependencies.gradle')
 group = 'com.github.tequilacat'
 version = '0.0.1-SNAPSHOT'
 
+bootWar {
+    enabled = true
+    mainClass = 'com.github.tequilacat.recipes.RecipesApplication'
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
     }
 }
 
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
+dependencies {
+    implementation(project(':recipe'))
 }
