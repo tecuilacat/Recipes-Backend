@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot' version '3.0.6'
+    id 'io.spring.dependency-management' version '1.1.2'
+    id 'java'
+    id 'war'
+}
+
+apply from: rootProject.file('spring-build.gradle')
+apply from: rootProject.file('shared-dependencies.gradle')
+
+group = 'com.github.tequilacat'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
