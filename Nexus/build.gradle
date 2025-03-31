@@ -18,4 +18,6 @@ java {
 dependencies {
     implementation(project(':NexusConfiguration'))
     implementation(project(':NexusRecipeRestService'))
+    implementation(project(':NexusSpotifyTrackerRestservice'))
+    implementation(project(':NexusDocumentRestservice'))
 }

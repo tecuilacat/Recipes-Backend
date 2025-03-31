@@ -1,0 +1,6 @@
+apply from: rootProject.file('buildscripts/restservice-dependency-bundle.gradle')
+apply from: rootProject.file('buildscripts/shared-dependencies.gradle')
+
+dependencies {
+    implementation(project(':NexusDocumentApi'))
+}

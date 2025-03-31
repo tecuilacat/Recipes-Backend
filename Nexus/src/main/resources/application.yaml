@@ -1,11 +1,17 @@
 server:
   servlet:
     context-path: /nexus
+    multipart:
+      enabled: true
 
 spring:
   profiles:
     active: homevm
   application.name: Recipes
+
+fileupload:
+  max-file-size: 40 # in MB
+  max-request-size: 50 # in MB
 
 recipe:
   random:

@@ -7,8 +7,13 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = 'Nexus'
-include 'NexusConfiguration'
 include 'Nexus'
-include 'NexusRecipeRestService'
-include 'NexusRecipeApi'
 include 'NexusConfigurationApi'
+include 'NexusConfiguration'
+include 'NexusWebLibrary'
+include 'NexusRecipeApi'
+include 'NexusRecipeRestService'
+include 'NexusSpotifyTrackerApi'
+include 'NexusSpotifyTrackerRestservice'
+include 'NexusDocumentApi'
+include 'NexusDocumentRestservice'
