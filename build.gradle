@@ -5,8 +5,6 @@ plugins {
     id 'war'
 }
 
-apply from: rootProject.file('buildscripts/disable-bootwar.gradle')
-
 repositories {
     mavenCentral()
 }
@@ -15,4 +13,16 @@ subprojects {
     repositories {
         mavenCentral()
     }
+}
+
+bootJar {
+    enabled = false
+}
+
+bootWar {
+    enabled = false
+}
+
+jar {
+    enabled = true
 }

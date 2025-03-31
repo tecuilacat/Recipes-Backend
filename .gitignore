@@ -4,3 +4,5 @@ application-homevm.yaml
 .gradle
 
 build
+
+generated-sources

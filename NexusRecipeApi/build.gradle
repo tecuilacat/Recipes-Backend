@@ -1,0 +1,2 @@
+apply from: rootProject.file('buildscripts/api-dependency-bundle.gradle')
+apply from: rootProject.file('buildscripts/shared-dependencies.gradle')

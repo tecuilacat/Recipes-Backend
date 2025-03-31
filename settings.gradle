@@ -6,6 +6,9 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = 'Recipes-Backend'
-include 'app'
-include 'recipe'
+rootProject.name = 'Nexus'
+include 'NexusConfiguration'
+include 'Nexus'
+include 'NexusRecipeRestService'
+include 'NexusRecipeApi'
+include 'NexusConfigurationApi'

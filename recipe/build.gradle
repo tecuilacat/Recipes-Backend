@@ -1,3 +1,0 @@
-apply from: rootProject.file('buildscripts/spring-build.gradle')
-apply from: rootProject.file('buildscripts/shared-dependencies.gradle')
-apply from: rootProject.file('buildscripts/disable-bootwar.gradle')

@@ -1,8 +1,0 @@
-spring:
-  profiles:
-    active: homevm
-  application.name: Recipes
-
-recipe:
-  random:
-    default-amount: 3

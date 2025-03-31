@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /nexus
+
+spring:
+  profiles:
+    active: homevm
+  application.name: Recipes
+
+recipe:
+  random:
+    default-amount: 3
